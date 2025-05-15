@@ -1,6 +1,6 @@
 all:
-	gcc -o main main.c
-	gcc -o hello hello.c
+	cc -o main main.c
+	cc -o hello hello.c
 
 clean:
 	rm -f main hello
